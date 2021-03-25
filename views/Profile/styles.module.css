@@ -1,0 +1,49 @@
+.menubutton {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.optionbutton {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.profileimgtext {
+  font-family: CircularStd;
+  color: #707070;
+  padding-top: 40px;
+}
+
+.label {
+  font-size: 12px;
+  font-family: ProximaNova;
+  color: #707070;
+}
+
+.accountdetails {
+  font-family: CircularStd;
+  color: #707070;
+}
+
+.accountdetailsinfo {
+  font-size: 10px;
+  color: #707070;
+}
+
+.accountdetailsarea {
+  padding-top: 170px;
+}
+
+.hidefileinput {
+  display: none;
+}
+
+.cropcontainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 80px;
+}

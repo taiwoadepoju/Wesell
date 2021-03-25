@@ -1,0 +1,97 @@
+.title{
+  font-family: CircularStd;
+  font-size: 24px;
+  color: #2B2A2A;
+  text-align: center;
+}
+
+.formcontainer {
+  padding: 10px;
+  border: 2px solid #D3D3D3;
+  border-radius: 10px;
+  min-height: 70vh;
+}
+
+.imageselect {
+  background-color: #F9E7FC;
+  width: 184px;
+  height: 124px;
+  border: 2px solid #D3D3D3;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageselect:hover {
+  cursor: pointer;
+}
+
+.imgpreview {
+  width: 184px;
+  height: 124px;
+  object-fit: cover;
+}
+
+.hidefileinput {
+  display: none;
+}
+
+.productrow {
+  background-color: #f6f1f7;
+  margin-bottom: 50px !important;
+}
+
+.productrow img {
+  height: 50px;
+}
+
+.productname {
+  font-family: CircularStd;
+}
+
+.productdate {
+  font-size: 14px;
+  line-height: 0.1px;
+}
+
+tr.productrow>td {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: solid 20px #fff;
+}
+
+.statusbtn {
+  border: solid 0.5px #3A0045;
+  color: #3A0045;
+}
+
+.statusbtn:hover {
+  background-color: #3A0045;
+  border: solid 0.5px #3A0045;
+}
+
+.textdetail {
+  font-family: CircularStd;
+}
+
+.textgray {
+  font-family: CircularStd;
+  color: #999393;
+}
+
+.modalinfo {
+  color: #999393;
+  text-align: center;
+  font-size: 14px;
+}
+
+.conditiontext {
+  background-color: #ddfce8;
+  color: #444;
+  padding: 10px;
+}
+
+.shrinklineheight {
+  margin-top: -15px !important;
+}

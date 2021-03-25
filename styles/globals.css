@@ -1,0 +1,106 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: ProximaNova, CircularStd, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url('/fonts/ProximaNova-Semibold.ttf');
+  src: url('/fonts/ProximaNova-Regular.ttf');
+  src: url('/fonts/ProximaNova-Light.ttf');
+}
+
+@font-face {
+  font-family: CircularStd;
+  src: url('/fonts/CircularStd-Book.ttf');
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Forms overide */
+input {
+  font-family: ProximaNova;
+}
+
+::placeholder { 
+  font-family: ProximaNova;
+  opacity: 1;
+}
+/* End of forms overide */
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+
+p, span, h1, h2, h3, h4, h5, h6, button {
+  font-family: ProximaNova;
+}
+
+/* Bootstrap overides */
+.navbar {
+  background-color: #3A0045;
+}
+
+.btn:focus,.btn:active:focus,.btn.active:focus,
+.btn.focus,.btn:active.focus,.btn.active.focus {
+    outline: none;
+}
+
+.btn-primary {
+  background-color: #3A0045;
+  outline: none !important;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #7f498a;
+  outline: none !important;
+}
+
+.btn-bg-disabled {
+  background-color: #3A0045;
+}
+
+.btn[disabled] {
+  background-color: #3A0045;
+}
+
+.text-primary {
+  color: #3A0045 !important;
+}
+
+.form-control:focus {
+  border-color: none;
+  box-shadow: none;
+}
+
+input[disabled] {
+  background-color: rgb(247, 243, 243) !important;
+}
+
+/* End of bootstrap overides */

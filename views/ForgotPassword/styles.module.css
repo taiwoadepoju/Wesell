@@ -1,0 +1,41 @@
+.input {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.mainsection {
+  height: 50vh;
+  border: 2px solid #D3D3D3;
+  border-radius: 10px;
+}
+
+.container {
+  margin-top: 25vh;
+}
+
+.Weselltext {
+  font-family: CircularStd;
+  color: #3A0045;
+}
+
+h5.Weselltext > a {
+  color: #3A0045;
+  text-decoration: none !important;
+}
+
+.submitbutton {
+  background-color: #3A0045;
+  border: #3A0045;
+  border-radius: 10px;
+  height: 52px;
+}
+
+.submitbutton:hover {
+  background-color: #621472;
+  outline: none;
+  border: none;
+}
+
+.sucessicon {
+  color: #e49852
+}

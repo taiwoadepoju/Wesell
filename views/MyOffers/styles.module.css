@@ -1,0 +1,44 @@
+.title {
+  font-size: 24px;
+  color: #646464;
+}
+
+.titlealt {
+  font-family: CircularStd;
+  font-size: 24px;
+  color: #2B2A2A;
+}
+
+.selectedbuying {
+  border-bottom: 4px solid #3a0045;
+  position: relative;
+  bottom: 21px;
+  right: 310px;
+  width: 100px;
+}
+
+.selectedtext {
+  color: #3a0045;
+  border-bottom: 4px solid #3a0045;
+  padding-bottom: 8px;
+  position: absolute;
+}
+
+.buysellheading {
+  border-bottom: 4px solid #EDEDED;
+  padding-bottom: -50px;
+}
+
+.hover:hover {
+  cursor: pointer;
+}
+
+.emptycart {
+  width: 200px;
+}
+
+.offerbutton {
+  width: 288px;
+  height: 74px;
+  border-radius: 10px;
+}

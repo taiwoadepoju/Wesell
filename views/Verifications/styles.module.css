@@ -1,0 +1,12 @@
+.submitbutton {
+  background-color: #3A0045;
+  border: none;
+}
+
+.submitbutton:hover {
+  background-color: #652672;
+}
+
+.codeinput {
+  font-family: ProximaNova;
+}
